@@ -1,0 +1,41 @@
+.history-title {
+  border-bottom: 0.5px solid gray;
+}
+
+.history-transaction-element {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 3em;
+  box-shadow: 0 0 3px gray;
+  padding: 1em;
+  margin: 0.5em 0;
+  background-color: white;
+}
+
+.history-transaction-element-delete {
+  display: none;
+  position: absolute;
+  align-items: center;
+  left: -28px;
+  top: 0px;
+  height: 100%;
+  padding: 0.5em;
+  color: white;
+  background-color: rgb(140, 0, 0);
+  cursor: pointer;
+}
+
+.history-transaction-element:hover .history-transaction-element-delete {
+  display: flex;
+}
+
+.expanse {
+  border-right: 0.5em solid rgb(140, 0, 0);
+}
+
+.income {
+  border-right: 0.5em solid green;
+}

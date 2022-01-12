@@ -1,0 +1,22 @@
+.transaction-title {
+  border-bottom: 0.5px solid gray;
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-form-input {
+  padding: 1em;
+  border: none;
+}
+
+.transaction-form-button {
+  padding: 1em;
+  margin: 1em 0;
+  border: none;
+  background-color: rgb(206, 61, 206);
+  width: 100%;
+  cursor: pointer;
+}
